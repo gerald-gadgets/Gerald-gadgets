@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Gerald Gadgets</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .navbar a:hover {
+            color: #4CAF50;
+        }
+
+        .products {
+            padding: 30px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .product button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Gerald Gadgets</div>
+        <nav class="menu">
+            <a href="Home.html">Home</a>
+            <a href="Products display.html">Products</a>
+            <a href="Contact us.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="phone1.jpg" alt="Smartphone 1">
+                <h3>Smartphone Model 1</h3>
+                <p>Latest high-end smartphone with stunning features.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="phone2.jpg" alt="Smartphone 2">
+                <h3>Smartphone Model 2</h3>
+                <p>Mid-range smartphone with great performance.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="accessory1.jpg" alt="Accessory 1">
+                <h3>Wireless Earbuds</h3>
+                <p>Crystal clear sound with noise cancellation.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="accessory2.jpg" alt="Accessory 2">
+                <h3>Fast Charger</h3>
+                <p>Super fast charging adapter for all devices.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="accessory2.jpg" alt="Accessory 2">
+                <h3>samsung charger</h3>
+                <p>Super fast charging adapter for all devices.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="accessory2.jpg" alt="Accessory 2">
+                <h3>tecno chager</h3>
+                <p>Super fast charging adapter for all devices.</p>
+                <button class="buy-button" onclick="window.location.href='checkout.html';">Buy Now</button>
+                >
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Gerald Gadgets. All rights reserved.</p>
+    </footer>
+</body>
+</html>
